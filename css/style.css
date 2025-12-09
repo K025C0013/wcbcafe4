@@ -190,6 +190,9 @@ iframe{
 .sns-item .heading-medium{
     margin-bottom: .5rem;
 }
+.sns-youtube iframe{
+    height: 100%;
+}
 
 /*フッター*/
 .page-footer{
@@ -310,6 +313,24 @@ iframe{
     .item-big img{
         height: 94.5%;
         width: 100%;
+    }
+
+    /* CONTACT */
+    .cover-contact{
+        background-image: url(../images/cover-contact-l.webp);
+    }
+    .location{
+        display: flex;
+        gap: 2rem;
+    }
+    .location-info{
+        width: 32%;
+    }
+    .location-info .info th{
+        padding-left: 2rem;
+    }
+    .location-map{
+        width: 64%;
     }
 
 
